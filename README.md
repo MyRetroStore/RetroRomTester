@@ -23,7 +23,8 @@ Before uploading the .ino to the Mega2560, review the config.h file and change t
 - Set CE pins (active low or high) - Commodore MOS released multiple versions of the 2332 and 2364 EPROMs with different active low/high CE pins.
 - To display ROM contents set ReadOnly to true
 
-Once the code has been uploaded insert the chip (Remove power before inserting ROM) and open the serial monitor set to 115200 baud.
+Once the code has been uploaded insert the chip (Remove power before inserting the ROM) and open the serial monitor set to 115200 baud.
+
 Program will run and compare the md5 hash of the ROM under test, or display the contents of the ROM.
 
 ![Serial Output](https://github.com/MyRetroStore/RetroRomTester/blob/main/software/serial-output.png?raw=true)
@@ -33,7 +34,8 @@ The Arduino code comes pre-configured with a set of md5 hashes from most of the 
 
 ##  Shield
 
-The gerber files for the shield can be founder under hardware/gerbers
+The gerber files for the shield can be found under hardware/gerbers
+
 ![Retro ROM Tester](https://github.com/MyRetroStore/RetroRomTester/blob/main/hardware/Retro%20ROM%20Tester.png?raw=true)
 
 ## BOM

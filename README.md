@@ -59,3 +59,6 @@ If you don't want build the shield yourself, assembled shields can be purchased 
 
 ## License
 CC BY-NC-SA 4.0
+
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H8RDX9W)

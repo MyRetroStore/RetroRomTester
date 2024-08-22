@@ -2,7 +2,7 @@
 Arduino shield to read and verify 2316, 2332 and 2364 ROM's from retro computers like the Commodore 64, VIC-20 and PET.
 
 ## Introduction
-Moderm EPROM programmers like the TL866 are unable to read obsolete 23XX ROM chips used in many retro Computers like the Commodore 64, VIC-20 and PET.
+Modern EPROM programmers like the TL866 are unable to read obsolete 23XX ROM chips used in many retro Computers like the Commodore 64, VIC-20 and PET.
 
 I built a shield for the Arduino Mega 2560 which reads the ROM and compares the MD5 hash value to know good ROMs found on [Zimmers.net](https://zimmers.net/anonftp/pub/cbm/firmware/index.html) with a option of displaying the contents of the ROM via the Arduino IDE serial monitor. 
 ![Shield](https://github.com/MyRetroStore/RetroRomTester/blob/main/hardware/Retro%20ROM%20Tester%20Shield.jpg?raw=true)

@@ -6,7 +6,7 @@ The python script was developed in Linux, but should run on any OS with python 3
 
 The python script **create_md5.py** is used to generate MD5 hashes from ROM files. This is useful if the ROM you are testing does not have a MD5 hash pre-configured in the code. 
 
-As the Arduino Mega 2560 has a slimited amount of RAM, when reading the ROM the contents are reach in 4k chunks. For this reason on 8k ROM's there are 2 sets of MD5 hashes generated. 
+As the Arduino Mega 2560 has a limited amount of RAM, when reading the ROM the contents are read in 4k chunks. For this reason on 8k ROM's there are 2 sets of MD5 hashes generated. 
  
  The hashes are stored in the file [crc.h](https://github.com/MyRetroStore/RetroRomTester/blob/main/software/Arduino/crc.h) and take the format of the following array.
  8k ROM:

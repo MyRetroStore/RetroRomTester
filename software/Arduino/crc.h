@@ -25,6 +25,7 @@ static const t_md5_8192 md5_8192[] PROGMEM = {
   {"turbodos_v3", "6fad4183669c358fd2258ed4e374df2f", "4f27ae69174e87199de242cd8721ae34"},  
   {"D32_11", "304ed7f0f27c1db3b54591b3856bebfa", "95e920e2ee182f9dfdd95f1a98d34209"},
   {"D32_10", "728ccb0f8250b049926594b5c0ed6c33", "c55d4785af5fbc7bc3d3e4734c78bbce"},
+  {"ZX80","e03bd725f98be45aac39c85f7fd41ce4", "6ae59e64850377ee5470c854761551ea"},
 }; // End of 8k marker
 
 static const t_md5_4096 md5_4096[] PROGMEM = {

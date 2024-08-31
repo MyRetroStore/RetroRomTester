@@ -116,7 +116,7 @@ void Initialize_2316() {
 void Display_LEDs(boolean error) {
 
   if (error == true) {  // Fail
-  digitalWrite(LED_Pass, LOW);
+    digitalWrite(LED_Pass, LOW);
     while (1) {
       digitalWrite(LED_Fail, LOW);
       delay(500);
@@ -448,6 +448,7 @@ void loop() {
     }
 
     if (address == 8191 ) { // Process next 4k chunk
+
       hashmatch = false;
       ROM_counter = 0;
       unsigned char* hash = MD5::make_hash(ROM);
@@ -459,6 +460,9 @@ void loop() {
           Serial.println("\nFound a valid MD5 hash");
           Serial.print("ROM is "); Serial.print((__FlashStringHelper*) md5_8192[index].fileName);
           Display_LEDs(false);
+        } else {
+          Serial.println("\nUnable to find valid MD5 match for ROM");
+          Serial.print("\nMD5 read from ROM is "); Serial.println(md5str);
         }
       }
     }

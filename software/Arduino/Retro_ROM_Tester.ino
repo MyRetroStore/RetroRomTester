@@ -61,14 +61,14 @@ void Initialize_2332() {
 
   if (ROM2332_CE1_type == 1)
   {
-    digitalWrite(ROM2332_CE1, LOW); // Active LOW
+    digitalWrite(ROM2332_CE2, LOW); // Active LOW
   } else {
     digitalWrite(ROM2332_CE2, HIGH);//Active HIGH
   }
 
   if (ROM2332_CE2_type == 1)
   {
-    digitalWrite(ROM2332_CE1, HIGH); // Active LOW, so set HIGH to disable
+    digitalWrite(ROM2332_CE2, HIGH); // Active LOW, so set HIGH to disable
   } else {
     digitalWrite(ROM2332_CE2, LOW);//Active HIGH, so set LOW to disable
   }

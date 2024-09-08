@@ -1,13 +1,13 @@
-
-#define VERSION "Version 1.1"
+ 
+#define VERSION "Version 1.2"
 
 // Set to true or false
-#define ReadOnly false //Set to true to only read ROM and don't compare to BIN file
+#define ReadOnly true //Set to true to only read ROM and don't compare to BIN file
 
 //Set ROM Type
 //#define ROM_type 2316   // 2k
-//#define ROM_type 2332 // 4k
-#define ROM_type 2364 // 8k
+#define ROM_type 2332 // 4k
+//#define ROM_type 2364 // 8k
 
 //Some Commodore computers have different revisions of 2332 / 2364 chips with alternate CE active high/low pins
 
